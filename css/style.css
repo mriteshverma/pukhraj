@@ -1,0 +1,26 @@
+.container {
+    max-width: 974px;
+}
+footer .list-group-item{
+    background: transparent;
+}
+.ring {
+    border-radius: 50px;
+}
+.f-25 {
+    font-size: 25px;
+}
+.nav-chevron-left > .nav-item > .nav-link {
+    position: relative;
+}
+.nav-chevron-left > .nav-item > .nav-link:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg) translate(0px, -3px);
+}
